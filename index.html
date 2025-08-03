@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html+>
 
 <head>
     <meta charset="UTF-8">
@@ -12,13 +12,20 @@
     <div class="container">
         <h1>Stopwatch</h1>
         <p class="time">
-            <span id="Minutes">00</span> :<span id="Seconds">00</span> :<span id="Milliseconds">00</span>
+            <span id="minutes">00</span> :<span id="second">00</span> :<span id="milisecond">00</span>
         </p>
-        <button id="Start">Start</button>
-        <button id="pause">Stop</button>
-        <button id="reset">Reset</button>
+        <button onclick="start()" id="Start">Start</button>
+        <button onclick="pause()"   id="Stop">Stop</button>
+        <button onclick="reset()" id="Reset">Reset</button>
     </div>
 
+
+
+
+
+
+
+    <script src="app.js"></script>
 </body>
 
 </html>
